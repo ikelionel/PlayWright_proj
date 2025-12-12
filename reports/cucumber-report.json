@@ -1,0 +1,64 @@
+[
+  {
+    "description": "     As a User I want to enter a valid table number and on clicking continue I am taken to the main menu.",
+    "elements": [
+      {
+        "description": "",
+        "id": "menu;success-table-menu",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Success Table Menu",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "a user goes to Jdwetherspoon site and excepts Privacy Terms",
+            "match": {
+              "location": "src\\tests\\step-definitions\\menu.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5024232100,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\ike.lionel\\source\\repos\\PlayWright_proj\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user enters their \"69\"",
+            "match": {
+              "location": "src\\tests\\step-definitions\\menu.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the menu page will be displayed",
+            "match": {
+              "location": "src\\tests\\step-definitions\\menu.ts:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "menu",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Menu",
+    "tags": [],
+    "uri": "src\\tests\\features\\menu.feature"
+  }
+]
