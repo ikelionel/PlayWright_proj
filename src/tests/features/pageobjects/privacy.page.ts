@@ -1,5 +1,0 @@
-
-class PrivacyPage extends Page {
-
-
-}

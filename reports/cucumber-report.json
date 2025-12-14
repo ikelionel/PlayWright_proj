@@ -4,7 +4,7 @@
     "elements": [
       {
         "description": "",
-        "id": "menu;success-table-menu",
+        "id": "ordermenu;success-table-menu",
         "keyword": "Scenario",
         "line": 5,
         "name": "Success Table Menu",
@@ -15,12 +15,11 @@
             "line": 6,
             "name": "a user goes to Jdwetherspoon site and excepts Privacy Terms",
             "match": {
-              "location": "src\\tests\\step-definitions\\menu.ts:8"
+              "location": "src\\tests\\step-definitions\\OrderMenu.ts:9"
             },
             "result": {
-              "status": "failed",
-              "duration": 5024232100,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\ike.lionel\\source\\repos\\PlayWright_proj\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+              "status": "passed",
+              "duration": 4788997500
             }
           },
           {
@@ -29,11 +28,11 @@
             "line": 7,
             "name": "the user enters their \"69\"",
             "match": {
-              "location": "src\\tests\\step-definitions\\menu.ts:27"
+              "location": "src\\tests\\step-definitions\\OrderMenu.ts:22"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1295900
             }
           },
           {
@@ -42,11 +41,11 @@
             "line": 8,
             "name": "the menu page will be displayed",
             "match": {
-              "location": "src\\tests\\step-definitions\\menu.ts:35"
+              "location": "src\\tests\\step-definitions\\OrderMenu.ts:29"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1912197699
             }
           }
         ],
@@ -54,10 +53,10 @@
         "type": "scenario"
       }
     ],
-    "id": "menu",
+    "id": "ordermenu",
     "line": 1,
     "keyword": "Feature",
-    "name": "Menu",
+    "name": "OrderMenu",
     "tags": [],
     "uri": "src\\tests\\features\\menu.feature"
   }

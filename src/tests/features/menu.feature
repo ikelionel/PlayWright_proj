@@ -1,4 +1,4 @@
-Feature: Menu 
+Feature: OrderMenu 
      As a User I want to enter a valid table number and on clicking continue I am taken to the main menu.
      
 
